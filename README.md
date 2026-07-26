@@ -1,6 +1,6 @@
 # Muhammad Hanzala Ali
 
-DevOps engineer from Lahore, Pakistan. I work mainly with AWS, Linux, Terraform, Docker, Kubernetes and GitHub Actions.
+DevOps engineer from Lahore, Pakistan. I work mainly with AWS, Linux, Terraform, Docker, Kubernetes and GitHub Actions. I also deploy open-source AI models on GPU servers.
 
 I like automating things. If I have to do a task by hand two times, I write a script for it the third time.
 
@@ -20,6 +20,8 @@ I like automating things. If I have to do a task by hand two times, I write a sc
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![RunPod](https://img.shields.io/badge/RunPod-673AB8?style=for-the-badge&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 ## Things I've Built
 
@@ -40,6 +42,12 @@ Repo coming soon.
 ### CI/CD Pipelines
 
 The GitHub Actions pipelines I use to test, build and deploy apps. Push to a branch, the pipeline does the rest.
+
+Repo coming soon.
+
+### AI Models on GPU Servers
+
+Everything is moving to AI, so I moved my DevOps skills there too. I deploy open-source AI models (image, video and audio generation) on GPU servers and RunPod. Docker images with the model weights, serverless GPU workers, and an API on top — so apps can use the models in production.
 
 Repo coming soon.
 

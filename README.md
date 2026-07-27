@@ -1,72 +1,59 @@
-# Muhammad Hanzala Ali
+# Hi, I'm Hanzala
 
-DevOps engineer from Lahore, Pakistan. I work mainly with AWS, Linux, Terraform, Docker, Kubernetes and GitHub Actions. I also deploy open-source AI models on GPU servers.
+I'm a DevOps engineer from Lahore, Pakistan.
 
-I like automating things. If I have to do a task by hand two times, I write a script for it the third time.
+In simple words — I help businesses keep their applications up and running, safe from attacks, and ready to handle growth. If your app goes down, that's lost money. If it gets hacked, that's lost trust. If it can't handle more users, that's a lost opportunity. My job is to make sure none of that happens — using cloud infrastructure (AWS), automation, and monitoring.
 
-## Tools I work with
+I build and automate this using Terraform, Docker, Kubernetes, and CI/CD pipelines. I like automating things. If I have to do a task by hand two times, I write a script for it the third time.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F5A800?style=for-the-badge&logo=grafana&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![RunPod](https://img.shields.io/badge/RunPod-673AB8?style=for-the-badge&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+Right now I work as a DevOps Engineer at Renesis Tech. Before that I worked as a Cloud Engineer at Zaltech AI, and gave Multi Cloud Solutions services on Upwork.
 
-## Things I've Built
+I also deploy open-source AI models (image, video, audio) on GPU servers and RunPod. Not many DevOps engineers do this, so it's become one of my favorite things to work on.
 
-For a long time my work stayed private on company servers. I am moving it into public repos now, one by one. If a link is not live yet, it is coming soon.
+**AWS Certified Solutions Architect – Associate** (valid till Jun 2027) — [verify it here](https://cp.certmetrics.com/amazon/en/public/verify/credential/90b399c26cab4e49b698e113ef4b3541)
 
-### Observability Stack
+---
 
-One Grafana to watch all my servers in a single place. Prometheus for metrics, Loki for logs, Grafana Alloy as the agent on every server. It also sends alerts before a domain goes down, an SSL expires, or DNS breaks.
+### Tools I actually use
 
-Repo coming soon.
+**Cloud & IaC**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 
-### Terraform AWS Multi-Environment
+**Containers & Orchestration**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
-Dev, staging and production on AWS, all built from the same Terraform code. Change one variable file, get a full new environment. Databases stay in private subnets, always.
+**CI/CD & Automation**
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-Repo coming soon.
+**Monitoring**
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-000000?style=flat-square&logo=grafana&logoColor=F46800)
 
-### CI/CD Pipelines
+**Web & Scripting**
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-The GitHub Actions pipelines I use to test, build and deploy apps. Push to a branch, the pipeline does the rest.
+---
 
-Repo coming soon.
+### Things I've built
 
-### AI Models on GPU Servers
+Each repo below is a real, sanitized version of production work — with a README that teaches you how to run it yourself, not just what it does.
 
-Everything is moving to AI, so I moved my DevOps skills there too. I deploy open-source AI models (image, video and audio generation) on GPU servers and RunPod. Docker images with the model weights, serverless GPU workers, and an API on top — so apps can use the models in production.
+- **observability-stack** — Grafana + Prometheus + Loki + Alloy, monitor many servers from one dashboard. *Repo coming soon.*
+- **terraform-aws-multi-env** — dev / staging / prod from one Terraform codebase. *Repo coming soon.*
+- **github-actions-cicd** — real pipelines: test, build, scan, deploy. *Repo coming soon.*
+- **devops-lab** — my daily practice ground, scripts and notes. *Repo coming soon.*
+- **runpod-model-deploy** — deploy open-source AI models on serverless GPU workers. *Repo coming soon.*
 
-Repo coming soon.
+---
 
-### DevOps Lab
+### Get in touch
 
-My daily practice ground. Scripts, experiments and notes from things I break and fix. This is where I learn in public.
-
-Repo coming soon.
-
-## Certification
-
-AWS Certified Solutions Architect – Associate ([verify](https://cp.certmetrics.com/amazon/en/public/verify/credential/90b399c26cab4e49b698e113ef4b3541))
-
-## Right now
-
-Going deeper into Kubernetes and GitOps with ArgoCD. Moving more of my private work into public repos, one by one.
-
-## Contact
-
-Open to remote DevOps and Cloud roles.
-
-LinkedIn: https://www.linkedin.com/in/hanzalaops
+- LinkedIn: [linkedin.com/in/hanzalaops](https://linkedin.com/in/hanzalaops)
+- Open to remote DevOps roles.
